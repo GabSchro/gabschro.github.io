@@ -1,15 +1,3 @@
-/*
-Author: Josh Greig
-
-You can chat with me on facebook at 
-https://www.facebook.com/josh.greig.5 or email me at josh.greig@gmail.com if you have questions about this.  
-I'm more than happy to help.  
-
-Suggestions for improving my code is also very appreciated.  
-- Do you want other types of fractals added?  
-- Want to see a 3D fractal?
-- Think I should optimize something with WebGL shaders or some other technique?
-*/
 
 function MandelbrotSet() {
     var self = this;
