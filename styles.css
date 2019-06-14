@@ -77,7 +77,7 @@ a:hover{
 }
 
 .post, .about{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 60px 0;
 }
