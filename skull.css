@@ -1,0 +1,337 @@
+body {
+    background-color:rgb(42, 83, 42);   
+    color:white;}
+    p{
+        position: relative;
+        top:-85px;
+        float: right;
+    }
+    
+    
+    #start{
+        margin: 0 auto;
+        top:150px;
+        width:250px;
+        height:80px;
+        padding-top:5px;
+        background:linear-gradient(red,#ffaaaa);
+        z-index:100;
+        font-size: 50px;
+        text-align:center;
+        font-weight:700;
+        border:2px solid black;
+    }
+    
+    #groups{
+        margin: 20px auto;
+        left:30px;
+        
+        width:1000px;
+        height:500px;
+        background-color:rgb(51, 51, 134);
+        border-radius:10px;
+        color:white;
+    }
+    
+    #header{
+        left:10px;
+        top:0px;
+        margin: 0 auto;
+        width:400px;
+        height:25px;
+        padding-top:5px;
+        font-weight:700;
+        font-family:courier;
+        text-align:center;
+        font-size: 50px;
+    }
+    
+    
+    
+    .slot1,.slot2,.slot3,.slot4{
+        
+        margin-top: 20px;
+        width:auto;
+        padding-left:10px;
+        height:80px;
+        padding-top:1px;
+        background-color:#4444ff;
+        border:1px solid black;
+        border-radius:4px;
+        font-size:30px;
+        font-family:monospace;
+        overflow:hidden;
+        
+    }
+    .slot1{
+        margin-top: 50px;
+    }
+    .slot1 div,.slot2 div,.slot3 div,.slot4 div{
+        width:80px;
+        height:80px;
+        left:160px;
+        background-size:100% 100%;
+    }
+    .slot1{
+        top:25px;
+    }
+    .slot2{
+        top:60px;
+    }
+    .slot3{
+        top:95px;
+    }
+    .slot4{
+        top:130px;
+    }
+    
+    #knockout{
+        margin: 10 auto;
+        top:200px;
+        left:5px;
+        width:auto;
+        height:650px;
+        background-color:rgb(74, 84, 180);
+        border:1px solid rgb(0, 0, 0);
+    }
+    
+    .phase{
+        position: relative;
+        width:300px;
+        height:150px;
+        margin-top: 10px;
+        border:1px solid black;
+        color:black;
+        font-size:40px;
+        font-weight:800;
+        background-color:rgb(192, 192, 67);
+    }
+    .phase .teamA{
+        width:auto;
+        height:75px;
+        top:3px;
+        left:3px;
+        background-color:rgb(192, 192, 67);
+        border-right:1px solid black;
+        border-top:1px solid black;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+    .phase .teamB{
+        width:auto;
+        height:75px;
+        
+        background-color:green;
+        border-right:1px solid black;
+        border-top:1px solid black;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+    .boxA{
+        left: 10px;
+        
+    }
+    .boxB{
+        
+        left:1470px;
+        top:-165px;
+    }
+    .boxC{
+        top:-165px;
+        left:10px;
+    }
+    .boxD{
+        top:-330px;
+        left:1470px;
+    }
+    .boxE{
+        top:-330px;
+        left: 10px;
+    }
+    .boxF{
+        top:-495px;
+        left: 1470px;
+    }
+    .boxG{
+        top:-495px;
+        left:10px;
+    }
+    .boxH{
+        top:-660px;
+        left:1470px;
+        
+        
+    }
+    
+    #quarterphase{
+        position:relative;
+        top:-550px;
+        left:390px;
+        width:1000px;
+        height:500px;
+        border:1px solid black;
+    }
+    #quarterphase .boxA2{
+        position:relative;
+        top:10px;
+        left:15px;        
+        
+        
+    }
+    
+    #quarterphase .boxB2{
+        position:relative;
+        top:-155px;
+        left:685px;        
+        
+    }
+    
+    #quarterphase .boxC2{
+        position:relative;
+        top:0px;
+        left:15px;        
+        
+    }
+    
+    #quarterphase .boxD2{
+        position:relative;
+        top:-162px;
+        left:685px;        
+        
+        
+    }
+    
+    .boxC2,.boxD2{
+        top:119px;
+    }
+    .boxA2,.boxD2{
+        left:4px;
+    }
+    .boxB2,.boxC2{
+        left:75px;
+    }
+    
+    #semiphase{
+        position:relative;
+        top:-1000px;
+        left:744px;
+        width:300px;
+        height:85px;
+        background-color:rgba(0,0,250,1);
+        font-weight:15px;
+        
+        text-align:center;
+        font-family:monospace;
+        
+    }
+
+    h1{
+        font-size: 50px;
+    }
+    #semiphase .boxA3{
+        top:1.5px;
+        left:-230px;
+        border-radius:15px;
+    }
+    #semiphase .boxB3{
+        top:-160px;
+        left:210px;
+        border-radius:15px;
+    }
+    .boxA3{
+        border-left:1px solid black;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        border-right:none;
+    }
+    .boxB3{
+        border-right:1px solid black;
+        border-top:1px solid black;
+        border-bottom:1px solid black;
+        border-left:none;
+    }
+    
+    .boxA3 .teamA,.boxA3 .teamB,
+    .boxB3 .teamA,.boxB3 .teamB{
+        opacity:0;
+    }
+    .boxA3{
+        left:5px;
+    }
+    .boxB3{
+        left:65px;
+    }
+
+    #final{
+        position:relative;
+        top:-1110px;
+        left:440px;
+        width:900px;
+        height:450px;
+        background-image:url(https://cdni.rt.com/files/2018.03/article/5ab4f490fc7e93e4708b45b2.jpg);
+        border:2px solid black;
+        background-size:100% 100%;
+        perspective:400px;
+        }
+        .fteam{
+        margin:auto auto;
+        width:700px;
+        height:55px;
+        padding-top:5px;
+        border:1px solid black;
+        top:40px;
+        font-size:45px;
+        color:white;
+        text-transform:uppercase;
+        font-weight:800;
+        font-family:courier;
+        text-align:center;
+        background-color:#6666ff;
+        }
+        .fA{
+        left:10px;
+        }
+        .fB{
+        left:170px;
+        }
+        .fscore{
+        margin:0 auto;
+            
+        width:200px;
+        height:100px;
+        border:1px solid black;
+        top:40px;
+        left:115px;
+        font-size:80px;
+        color:black;
+        text-transform:uppercase;
+        font-weight:800;
+        font-family:courier;
+        background-color:yellow;
+        text-align:center;
+        }
+        #winner{
+        margin:0 auto;
+        width:540px;
+        padding:10px;
+        height:80px;
+        border:1px solid black;
+        top:160px;
+        left:10px;
+        background-color:red;
+        font-weight:700;
+        font-size:40px;
+        font-family:monospace;
+        animation:flip 3s linear alternate infinite;
+        opacity:0;
+        transform-style:preserve-3d;
+        }
+        
+        @keyframes flip{
+        from{
+        transform:rotateY(-20deg);
+        }
+        to{
+        transform:rotateY(20deg);
+        }
+        }
